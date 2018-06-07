@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+    <item label="File Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/a384074033dfc3ebebb1a8a39d2be8a6.png"><action name="Execute"><command><![CDATA[xdg-open .]]></command></action></item>
+    <item label="Terminal" icon="/home/ragdelaed/.config/obmenu-generator/icons/677c1725c42ed0c02eac7ef43c310d91.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+    <item label="Web Browser" icon="/home/ragdelaed/.config/obmenu-generator/icons/0fd14be8770af75716427df2c3a3194a.png"><action name="Execute"><command><![CDATA[xdg-open http://]]></command></action></item>
+    <item label="Run command" icon="/home/ragdelaed/.config/obmenu-generator/icons/ad396476a3d8b534bcfed5108874abe3.png"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  <separator label="Categories"/>
+  <menu id="0.198093987143697" icon="/home/ragdelaed/.config/obmenu-generator/icons/14ccfd60064d61cfc7da4145731d45f2.png" label="Accessories">
+    <item label="0install" icon="/home/ragdelaed/.config/obmenu-generator/icons/acbf1f5001713e6bfd0b28717b8c09a7.png"><action name="Execute"><command><![CDATA[0desktop]]></command></action></item>
+    <item label="Activity Log Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/921d03f3e331770da46f3a3c69605404.png"><action name="Execute"><command><![CDATA[activity-log-manager]]></command></action></item>
+    <item label="Archive Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/82294149b2ec53dcc6285c0686317e9f.png"><action name="Execute"><command><![CDATA[file-roller]]></command></action></item>
+    <item label="Backups" icon="/home/ragdelaed/.config/obmenu-generator/icons/30370985bfde1359b3b4ed553f981a2b.png"><action name="Execute"><command><![CDATA[deja-dup-preferences]]></command></action></item>
+    <item label="Backups" icon="/home/ragdelaed/.config/obmenu-generator/icons/30370985bfde1359b3b4ed553f981a2b.png"><action name="Execute"><command><![CDATA[unity-control-center deja-dup]]></command></action></item>
+    <item label="Bulk Rename" icon="/home/ragdelaed/.config/obmenu-generator/icons/8ea1c0f2ad8f6dbfdd02894a2238e92e.png"><action name="Execute"><command><![CDATA[/usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="Character Map" icon="/home/ragdelaed/.config/obmenu-generator/icons/02e5f02eeb9241d2ac571bef4b1e6ed0.png"><action name="Execute"><command><![CDATA[gucharmap]]></command></action></item>
+    <item label="Etcher" icon="/home/ragdelaed/.config/obmenu-generator/icons/c02a0209061c11fddbf4ede20d5cdcfe.png"><action name="Execute"><command><![CDATA["/opt/Etcher/etcher-electron"]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/ragdelaed/.config/obmenu-generator/icons/a384074033dfc3ebebb1a8a39d2be8a6.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="File Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/a384074033dfc3ebebb1a8a39d2be8a6.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Files" icon="/home/ragdelaed/.config/obmenu-generator/icons/a384074033dfc3ebebb1a8a39d2be8a6.png"><action name="Execute"><command><![CDATA[nautilus --new-window]]></command></action></item>
+    <item label="Files" icon="/home/ragdelaed/.config/obmenu-generator/icons/a384074033dfc3ebebb1a8a39d2be8a6.png"><action name="Execute"><command><![CDATA[nautilus --new-window]]></command></action></item>
+    <item label="Font Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/56812bd03655abf12e3662af02894b75.png"><action name="Execute"><command><![CDATA[font-manager]]></command></action></item>
+    <item label="Font Viewer" icon="/home/ragdelaed/.config/obmenu-generator/icons/56812bd03655abf12e3662af02894b75.png"><action name="Execute"><command><![CDATA[/usr/lib/x86_64-linux-gnu/font-manager/font-viewer]]></command></action></item>
+    <item label="Help" icon="/home/ragdelaed/.config/obmenu-generator/icons/965e4385c9f525aa9bfe1745c62a6a0d.png"><action name="Execute"><command><![CDATA[yelp]]></command></action></item>
+    <item label="ipython" icon="/home/ragdelaed/.config/obmenu-generator/icons/b149d1e736f8cdfd25331e68225ffe1e.png"><action name="Execute"><command><![CDATA[xterm -e 'ipython']]></command></action></item>
+    <item label="Klipper" icon="/home/ragdelaed/.config/obmenu-generator/icons/95928ad9169ce6388e584659ef81ee28.png"><action name="Execute"><command><![CDATA[klipper]]></command></action></item>
+    <item label="Main Menu" icon="/home/ragdelaed/.config/obmenu-generator/icons/f8abfa3aa1e3d333ef5bbbfb74b65f65.png"><action name="Execute"><command><![CDATA[alacarte]]></command></action></item>
+    <item label="Midnight Commander editor" icon="/home/ragdelaed/.config/obmenu-generator/icons/eacfb60d80e0543964b1bcfa839360b6.png"><action name="Execute"><command><![CDATA[xterm -e 'mcedit']]></command></action></item>
+    <item label="Midnight Commander" icon="/home/ragdelaed/.config/obmenu-generator/icons/eacfb60d80e0543964b1bcfa839360b6.png"><action name="Execute"><command><![CDATA[xterm -e 'mc']]></command></action></item>
+    <item label="nitrogen" icon="/home/ragdelaed/.config/obmenu-generator/icons/dc07ea0146d8fe8408ee1b3a35dded2d.png"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+    <item label="Onboard" icon="/home/ragdelaed/.config/obmenu-generator/icons/8dcca52b9e1d09787d2ea4f3c17656d6.png"><action name="Execute"><command><![CDATA[onboard]]></command></action></item>
+    <item label="Screenshot" icon="/home/ragdelaed/.config/obmenu-generator/icons/d4a0f9340b4325aa9247e497445b8d00.png"><action name="Execute"><command><![CDATA[gnome-screenshot --interactive]]></command></action></item>
+    <item label="Security &amp; Privacy" icon="/home/ragdelaed/.config/obmenu-generator/icons/921d03f3e331770da46f3a3c69605404.png"><action name="Execute"><command><![CDATA[unity-control-center activity-log-manager]]></command></action></item>
+    <item label="SpeedCrunch" icon="/home/ragdelaed/.config/obmenu-generator/icons/ccba5b9c302440f5a1d3c063ad0f7baf.png"><action name="Execute"><command><![CDATA[speedcrunch]]></command></action></item>
+    <item label="Sysinfo" icon="/home/ragdelaed/.config/obmenu-generator/icons/d7b6fdd086657b080be6c2bf5349f72c.png"><action name="Execute"><command><![CDATA[sysinfo]]></command></action></item>
+    <item label="Terminal Emulator" icon="/home/ragdelaed/.config/obmenu-generator/icons/677c1725c42ed0c02eac7ef43c310d91.png"><action name="Execute"><command><![CDATA[exo-open --launch TerminalEmulator]]></command></action></item>
+    <item label="Text Editor" icon="/home/ragdelaed/.config/obmenu-generator/icons/17e3c7a7b078a9003c7a25583dc89a0b.png"><action name="Execute"><command><![CDATA[gedit]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/8ea1c0f2ad8f6dbfdd02894a2238e92e.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Time &amp; Date" icon="/home/ragdelaed/.config/obmenu-generator/icons/777ce33af14541115eb22f61e8ac6544.png"><action name="Execute"><command><![CDATA[unity-control-center datetime]]></command></action></item>
+    <item label="TrueCrypt" icon="/home/ragdelaed/.config/obmenu-generator/icons/829ab2b4fae6f00ac4d846e9715d7c77.png"><action name="Execute"><command><![CDATA[/usr/bin/truecrypt]]></command></action></item>
+    <item label="UXTerm" icon="/home/ragdelaed/.config/obmenu-generator/icons/c41a9631a41abd65a3ec973922274bf7.png"><action name="Execute"><command><![CDATA[uxterm]]></command></action></item>
+    <item label="Vim" icon="/home/ragdelaed/.config/obmenu-generator/icons/9f954f62b318e85d9716dec7d44b1f3b.png"><action name="Execute"><command><![CDATA[xterm -e 'vim']]></command></action></item>
+    <item label="VirtualBox" icon="/home/ragdelaed/.config/obmenu-generator/icons/ee6adc838532fb720682196c08d62f21.png"><action name="Execute"><command><![CDATA[VirtualBox]]></command></action></item>
+    <item label="XTerm" icon="/home/ragdelaed/.config/obmenu-generator/icons/c41a9631a41abd65a3ec973922274bf7.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+  </menu>
+  <menu id="0.363743976081849" icon="/home/ragdelaed/.config/obmenu-generator/icons/63af62d6fc07c9f972fc1dd332484a40.png" label="Development">
+    <item label="Devhelp" icon="/home/ragdelaed/.config/obmenu-generator/icons/910a68c5d03dcc1afcbe202cbe716ec7.png"><action name="Execute"><command><![CDATA[devhelp]]></command></action></item>
+    <item label="Geany" icon="/home/ragdelaed/.config/obmenu-generator/icons/ea8896e1f32148a85124ce6ee6f8335a.png"><action name="Execute"><command><![CDATA[geany]]></command></action></item>
+    <item label="Glade" icon="/home/ragdelaed/.config/obmenu-generator/icons/9c047ed9efb67862753e39c88b3f546f.png"><action name="Execute"><command><![CDATA[glade]]></command></action></item>
+    <item label="ipython" icon="/home/ragdelaed/.config/obmenu-generator/icons/b149d1e736f8cdfd25331e68225ffe1e.png"><action name="Execute"><command><![CDATA[xterm -e 'ipython']]></command></action></item>
+    <item label="Oracle Java 8 Mission Control" icon="/home/ragdelaed/.config/obmenu-generator/icons/9bcf2d87d43d91a29864bc45410914cd.png"><action name="Execute"><command><![CDATA[/usr/lib/jvm/java-8-oracle/bin/jmc]]></command></action></item>
+    <item label="RStudio" icon="/home/ragdelaed/.config/obmenu-generator/icons/0b6a48b677635b02689b27ddbe2e6c1e.png"><action name="Execute"><command><![CDATA[/usr/lib/rstudio/bin/rstudio]]></command></action></item>
+    <item label="SciTE Text Editor" icon="/home/ragdelaed/.config/obmenu-generator/icons/aa83a0a6f0a67a657ba1de26c0096a83.png"><action name="Execute"><command><![CDATA[SciTE]]></command></action></item>
+  </menu>
+  <menu id="0.291381170313013" icon="/home/ragdelaed/.config/obmenu-generator/icons/b5452f3ed0957329aa07d91117ae9b54.png" label="Education">
+    <item label="LibreOffice Math" icon="/home/ragdelaed/.config/obmenu-generator/icons/db4213d3e7ca1fd5def3a97b81cf1428.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+  </menu>
+  <menu id="0.665633492727416" icon="/home/ragdelaed/.config/obmenu-generator/icons/b1525fdcd21fbe079098eb085d97a8a0.png" label="Games">
+    <item label="AisleRiot Solitaire" icon="/home/ragdelaed/.config/obmenu-generator/icons/7536f1281b43430cf1e22c95c53e603c.png"><action name="Execute"><command><![CDATA[/usr/games/sol]]></command></action></item>
+    <item label="Five or More" icon="/home/ragdelaed/.config/obmenu-generator/icons/a04147536fe50c7d79b7ba04c1a34036.png"><action name="Execute"><command><![CDATA[five-or-more]]></command></action></item>
+    <item label="Four-in-a-row" icon="/home/ragdelaed/.config/obmenu-generator/icons/b94218283c40b4e55cf84f0ad9333bcb.png"><action name="Execute"><command><![CDATA[four-in-a-row]]></command></action></item>
+    <item label="Hitori" icon="/home/ragdelaed/.config/obmenu-generator/icons/5c50dd6a94cb812d61db38153fc29b7c.png"><action name="Execute"><command><![CDATA[hitori]]></command></action></item>
+    <item label="Iagno" icon="/home/ragdelaed/.config/obmenu-generator/icons/9e1b18148f20eb1b5b1c591b918df0c1.png"><action name="Execute"><command><![CDATA[iagno]]></command></action></item>
+    <item label="Lights Off" icon="/home/ragdelaed/.config/obmenu-generator/icons/319c8e66ae357d4fa01f06575c5103ed.png"><action name="Execute"><command><![CDATA[lightsoff]]></command></action></item>
+    <item label="Quadrapassel" icon="/home/ragdelaed/.config/obmenu-generator/icons/b4c25a00aa053caf6e4ca73e3d999e31.png"><action name="Execute"><command><![CDATA[quadrapassel]]></command></action></item>
+    <item label="Swell Foop" icon="/home/ragdelaed/.config/obmenu-generator/icons/3cb813c581685d4b23644f72d2eaaef1.png"><action name="Execute"><command><![CDATA[swell-foop]]></command></action></item>
+    <item label="Tali" icon="/home/ragdelaed/.config/obmenu-generator/icons/52a80e1c05db16fbc74dfcd804d07dd0.png"><action name="Execute"><command><![CDATA[tali]]></command></action></item>
+  </menu>
+  <menu id="0.0589101541673536" icon="/home/ragdelaed/.config/obmenu-generator/icons/eac7ac9b799a361f360a5c6592277f77.png" label="Graphics">
+    <item label="Dia" icon="/home/ragdelaed/.config/obmenu-generator/icons/32e86ab2ee72be1669354fcb3bd79238.png"><action name="Execute"><command><![CDATA[dia]]></command></action></item>
+    <item label="Document Viewer" icon="/home/ragdelaed/.config/obmenu-generator/icons/38cfab02c6412025837363449f4fb4b9.png"><action name="Execute"><command><![CDATA[evince]]></command></action></item>
+    <item label="Font Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/56812bd03655abf12e3662af02894b75.png"><action name="Execute"><command><![CDATA[font-manager]]></command></action></item>
+    <item label="Font Viewer" icon="/home/ragdelaed/.config/obmenu-generator/icons/56812bd03655abf12e3662af02894b75.png"><action name="Execute"><command><![CDATA[/usr/lib/x86_64-linux-gnu/font-manager/font-viewer]]></command></action></item>
+    <item label="GIMP Image Editor" icon="/home/ragdelaed/.config/obmenu-generator/icons/031bb74f899b27dd0740011376599c7c.png"><action name="Execute"><command><![CDATA[gimp-2.8]]></command></action></item>
+    <item label="gThumb" icon="/home/ragdelaed/.config/obmenu-generator/icons/20ea6dbed44e5efc45a52c7808f923d1.png"><action name="Execute"><command><![CDATA[gthumb]]></command></action></item>
+    <item label="Image Viewer" icon="/home/ragdelaed/.config/obmenu-generator/icons/80d63ad112a074478832e6c0d5fbca9b.png"><action name="Execute"><command><![CDATA[eog]]></command></action></item>
+    <item label="ImageMagick (display Q16)" icon="/home/ragdelaed/.config/obmenu-generator/icons/ea130c88e7579dcb36320a87b6f881ce.png"><action name="Execute"><command><![CDATA[/usr/bin/display-im6]]></command></action></item>
+    <item label="ImageMagick (display Q16)" icon="/home/ragdelaed/.config/obmenu-generator/icons/ea130c88e7579dcb36320a87b6f881ce.png"><action name="Execute"><command><![CDATA[/usr/lib/x86_64-linux-gnu/ImageMagick-6.8.9/bin-Q16/display]]></command></action></item>
+    <item label="Inkscape" icon="/home/ragdelaed/.config/obmenu-generator/icons/f60d9b792fe82e2a491c034f68d35d21.png"><action name="Execute"><command><![CDATA[inkscape]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/ragdelaed/.config/obmenu-generator/icons/0e972a0a38014e02c038db2ea9758f69.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="R" icon="/home/ragdelaed/.config/obmenu-generator/icons/210cff40a6fa07c776b261f8dad3565f.png"><action name="Execute"><command><![CDATA[xterm -e 'R']]></command></action></item>
+    <item label="Shotwell" icon="/home/ragdelaed/.config/obmenu-generator/icons/c88261d7b544ae5d5d22223bf303771c.png"><action name="Execute"><command><![CDATA[shotwell]]></command></action></item>
+    <item label="Simple Scan" icon="/home/ragdelaed/.config/obmenu-generator/icons/c31fb54b95b71f97416bfbda773f470c.png"><action name="Execute"><command><![CDATA[simple-scan]]></command></action></item>
+  </menu>
+  <menu id="0.0654773502464963" icon="/home/ragdelaed/.config/obmenu-generator/icons/88d45fe59e05c5b23cc06c0dce0f8952.png" label="Multimedia">
+    <item label="Alsamixergui" icon="/home/ragdelaed/.config/obmenu-generator/icons/9d0803679e04d5331fd5c50c6bfe96a4.png"><action name="Execute"><command><![CDATA[/usr/bin/alsamixergui]]></command></action></item>
+    <item label="aumix" icon="/home/ragdelaed/.config/obmenu-generator/icons/76a0db7ad520a04d6393a8bcca16d93e.png"><action name="Execute"><command><![CDATA[aumix]]></command></action></item>
+    <item label="PulseAudio Volume Control" icon="/home/ragdelaed/.config/obmenu-generator/icons/100e7ba2c81608c814f9ffc45cffd297.png"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Rhythmbox" icon="/home/ragdelaed/.config/obmenu-generator/icons/11bed688a45eb470ad913b2476b1f293.png"><action name="Execute"><command><![CDATA[rhythmbox]]></command></action></item>
+    <item label="Videos" icon="/home/ragdelaed/.config/obmenu-generator/icons/3e72b6c6ca0ef35fcefaedccbc71d920.png"><action name="Execute"><command><![CDATA[totem]]></command></action></item>
+  </menu>
+  <menu id="0.205159400493667" icon="/home/ragdelaed/.config/obmenu-generator/icons/054bc48eec2134c9e47f647a057579fc.png" label="Network">
+    <item label="Browser" icon="/home/ragdelaed/.config/obmenu-generator/icons/2180c5c49cc6c2302afe882476955198.png"><action name="Execute"><command><![CDATA[webbrowser-app]]></command></action></item>
+    <item label="Chromium Web Browser" icon="/home/ragdelaed/.config/obmenu-generator/icons/fe8cbaa1d5859e29b29c05e1c04ebc84.png"><action name="Execute"><command><![CDATA[chromium-browser]]></command></action></item>
+    <item label="Desktop Sharing" icon="/home/ragdelaed/.config/obmenu-generator/icons/0b0ee516716f01d212a78db36aa6f677.png"><action name="Execute"><command><![CDATA[vino-preferences]]></command></action></item>
+    <item label="Desktop Webmail" icon="/home/ragdelaed/.config/obmenu-generator/icons/49079c35cc36b1675a370dcf93b2c8e7.png"><action name="Execute"><command><![CDATA[desktop-webmail]]></command></action></item>
+    <item label="Dillo" icon="/home/ragdelaed/.config/obmenu-generator/icons/f47632bd80bff026fbe54da697a9fe72.png"><action name="Execute"><command><![CDATA[dillo]]></command></action></item>
+    <item label="Driftnet" icon="/home/ragdelaed/.config/obmenu-generator/icons/95928ad9169ce6388e584659ef81ee28.png"><action name="Execute"><command><![CDATA[driftnet]]></command></action></item>
+    <item label="Ettercap" icon="/home/ragdelaed/.config/obmenu-generator/icons/ec012de31658d506a2cac55aaec0777f.png"><action name="Execute"><command><![CDATA[ettercap-pkexec -G]]></command></action></item>
+    <item label="Firefox Web Browser" icon="/home/ragdelaed/.config/obmenu-generator/icons/c07ae78ad546c6442536bc405c15e93d.png"><action name="Execute"><command><![CDATA[firefox]]></command></action></item>
+    <item label="Keybase" icon="/home/ragdelaed/.config/obmenu-generator/icons/f64e80e18f904e7a99223dcb01328083.png"><action name="Execute"><command><![CDATA[run_keybase]]></command></action></item>
+    <item label="Mail Reader" icon="/home/ragdelaed/.config/obmenu-generator/icons/95928ad9169ce6388e584659ef81ee28.png"><action name="Execute"><command><![CDATA[exo-open --launch MailReader]]></command></action></item>
+    <item label="Maltego Memory Config" icon="/home/ragdelaed/.config/obmenu-generator/icons/95928ad9169ce6388e584659ef81ee28.png"><action name="Execute"><command><![CDATA[/usr/bin/maltego_tungsten_ce_memory_config]]></command></action></item>
+    <item label="Maltego" icon="/home/ragdelaed/.config/obmenu-generator/icons/95928ad9169ce6388e584659ef81ee28.png"><action name="Execute"><command><![CDATA[/usr/bin/maltego_tungsten_ce]]></command></action></item>
+    <item label="Oracle Java 8 Web Start" icon="/home/ragdelaed/.config/obmenu-generator/icons/9bcf2d87d43d91a29864bc45410914cd.png"><action name="Execute"><command><![CDATA[/usr/lib/jvm/java-8-oracle/jre/bin/javaws]]></command></action></item>
+    <item label="QupZilla" icon="/home/ragdelaed/.config/obmenu-generator/icons/9ad453e430bcd6aa15927d7f190b87bc.png"><action name="Execute"><command><![CDATA[qupzilla]]></command></action></item>
+    <item label="Remmina" icon="/home/ragdelaed/.config/obmenu-generator/icons/43569f0173f1dc97c07bf612baa41cf5.png"><action name="Execute"><command><![CDATA[remmina]]></command></action></item>
+    <item label="Remote Desktop Viewer" icon="/home/ragdelaed/.config/obmenu-generator/icons/0b0ee516716f01d212a78db36aa6f677.png"><action name="Execute"><command><![CDATA[vinagre]]></command></action></item>
+    <item label="SSH AskPass" icon="/home/ragdelaed/.config/obmenu-generator/icons/ab7be640fc1b105da3744b9661ed18bc.png"><action name="Execute"><command><![CDATA[/usr/bin/ssh-add]]></command></action></item>
+    <item label="Telegram Desktop" icon="/home/ragdelaed/.config/obmenu-generator/icons/7fe4837eba7aff519ec03e818d4914ac.png"><action name="Execute"><command><![CDATA[/home/ragdelaed/Downloads/Telegram/Telegram --]]></command></action></item>
+    <item label="Thunderbird Mail" icon="/home/ragdelaed/.config/obmenu-generator/icons/c367431a10b353c88a218534312d3222.png"><action name="Execute"><command><![CDATA[thunderbird]]></command></action></item>
+    <item label="Transmission" icon="/home/ragdelaed/.config/obmenu-generator/icons/e7cf623d5e028ea7a6dcbd3348bc38ed.png"><action name="Execute"><command><![CDATA[transmission-gtk]]></command></action></item>
+    <item label="Web Browser" icon="/home/ragdelaed/.config/obmenu-generator/icons/0fd14be8770af75716427df2c3a3194a.png"><action name="Execute"><command><![CDATA[exo-open --launch WebBrowser]]></command></action></item>
+    <item label="XHydra" icon="/home/ragdelaed/.config/obmenu-generator/icons/f601385f3b9524de2b666649073dfa31.png"><action name="Execute"><command><![CDATA[xhydra]]></command></action></item>
+  </menu>
+  <menu id="0.117129869101596" icon="/home/ragdelaed/.config/obmenu-generator/icons/334c78f78ee31b6cfa75b142a2a17622.png" label="Office">
+    <item label="Contacts" icon="/home/ragdelaed/.config/obmenu-generator/icons/7bc4a29b02bcb53648a8ab93f2e91fba.png"><action name="Execute"><command><![CDATA[gnome-contacts]]></command></action></item>
+    <item label="Document Viewer" icon="/home/ragdelaed/.config/obmenu-generator/icons/38cfab02c6412025837363449f4fb4b9.png"><action name="Execute"><command><![CDATA[evince]]></command></action></item>
+    <item label="Gnumeric" icon="/home/ragdelaed/.config/obmenu-generator/icons/95179e8d03c77b6aea4210b28aefc490.png"><action name="Execute"><command><![CDATA[gnumeric]]></command></action></item>
+    <item label="LibreOffice Base" icon="/home/ragdelaed/.config/obmenu-generator/icons/8617186b8966438b7001221be716766c.png"><action name="Execute"><command><![CDATA[libreoffice --base]]></command></action></item>
+    <item label="LibreOffice Calc" icon="/home/ragdelaed/.config/obmenu-generator/icons/e9d6d59335397d16143861b3d131d394.png"><action name="Execute"><command><![CDATA[libreoffice --calc]]></command></action></item>
+    <item label="LibreOffice Draw" icon="/home/ragdelaed/.config/obmenu-generator/icons/0e972a0a38014e02c038db2ea9758f69.png"><action name="Execute"><command><![CDATA[libreoffice --draw]]></command></action></item>
+    <item label="LibreOffice Impress" icon="/home/ragdelaed/.config/obmenu-generator/icons/df0cc030be53fed727d1f36387020a2c.png"><action name="Execute"><command><![CDATA[libreoffice --impress]]></command></action></item>
+    <item label="LibreOffice Math" icon="/home/ragdelaed/.config/obmenu-generator/icons/db4213d3e7ca1fd5def3a97b81cf1428.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+    <item label="LibreOffice Writer" icon="/home/ragdelaed/.config/obmenu-generator/icons/2559d4fca9706a3f56be39455df44dff.png"><action name="Execute"><command><![CDATA[libreoffice --writer]]></command></action></item>
+    <item label="LibreOffice" icon="/home/ragdelaed/.config/obmenu-generator/icons/cabbb510383aac976efb1688e6e6017d.png"><action name="Execute"><command><![CDATA[libreoffice]]></command></action></item>
+    <item label="Planner" icon="/home/ragdelaed/.config/obmenu-generator/icons/32c15d8d576ac17c03cefc74b02ffa4c.png"><action name="Execute"><command><![CDATA[planner]]></command></action></item>
+  </menu>
+  <menu id="0.207537425207565" icon="/home/ragdelaed/.config/obmenu-generator/icons/1c32fafed654d1955b2aef8a58dbd118.png" label="Other">
+    <item label="Amazon" icon="/home/ragdelaed/.config/obmenu-generator/icons/beda49912c023daf715df2dfba37da33.png"><action name="Execute"><command><![CDATA[unity-webapps-runner --amazon --app-id=ubuntu-amazon-default]]></command></action></item>
+    <item label="Browse C: Drive" icon="/home/ragdelaed/.config/obmenu-generator/icons/c62ce0d279da973dd8120328cdcbaef6.png"><action name="Execute"><command><![CDATA[xdg-open .wine/dosdevices/c:]]></command></action></item>
+    <item label="Cisco Anyconnect Secure Mobility Client" icon="/home/ragdelaed/.config/obmenu-generator/icons/1a5a1a370b9fc643c06ff96c187bcfbc.png"><action name="Execute"><command><![CDATA[/opt/cisco/anyconnect/bin/vpnui]]></command></action></item>
+    <item label="Configure Wine" icon="/home/ragdelaed/.config/obmenu-generator/icons/e7929cbf54dd1199b78313834c0c63f5.png"><action name="Execute"><command><![CDATA[winecfg]]></command></action></item>
+    <item label="Ethereum Wallet" icon="/home/ragdelaed/.config/obmenu-generator/icons/9669b4dbe256d8b8365da87859a03264.png"><action name="Execute"><command><![CDATA["/opt/Ethereum Wallet/ethereumwallet"]]></command></action></item>
+    <item label="Ledger Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/a7e2c2f5e6853aed2c09b9488ba81778.png"><action name="Execute"><command><![CDATA[/usr/bin/chromium-browser --profile-directory=Default --app-id=beimhnaefocolcplfimocfiaiefpkgbf]]></command></action></item>
+    <item label="Ledger Wallet Bitcoin" icon="/home/ragdelaed/.config/obmenu-generator/icons/c09afb3b6c919e5e23a2af06d1b8f9fe.png"><action name="Execute"><command><![CDATA[/usr/bin/chromium-browser --profile-directory=Default --app-id=kkdpmhnladdopljabkgpacgpliggeeaf]]></command></action></item>
+    <item label="Ledger Wallet Ethereum" icon="/home/ragdelaed/.config/obmenu-generator/icons/8ad550d8eac5b736cb57c878668109bb.png"><action name="Execute"><command><![CDATA[/usr/bin/chromium-browser --profile-directory=Default --app-id=hmlhkialjkaldndjnlcdfdphcgeadkkm]]></command></action></item>
+    <item label="Ledger Wallet Ripple" icon="/home/ragdelaed/.config/obmenu-generator/icons/fb2209ea3d6246761be6b18686bb809e.png"><action name="Execute"><command><![CDATA[/usr/bin/LedgerWalletRipple]]></command></action></item>
+    <item label="Mist" icon="/home/ragdelaed/.config/obmenu-generator/icons/f0cca41d37fdb764661fb25c5bbdcbb8.png"><action name="Execute"><command><![CDATA["/opt/Mist/mist"]]></command></action></item>
+    <item label="NetGUI" icon="/home/ragdelaed/.config/obmenu-generator/icons/c070695b59cf3d504bcced5415b5dcd5.png"><action name="Execute"><command><![CDATA[su -c "netgui"]]></command></action></item>
+    <item label="Notepad" icon="/home/ragdelaed/.config/obmenu-generator/icons/9dcc8f7c2a22258ac20bc07f3d91af50.png"><action name="Execute"><command><![CDATA[notepad]]></command></action></item>
+    <item label="Private Internet Access" icon="/home/ragdelaed/.config/obmenu-generator/icons/a8cf2fa155bca4dc7ae1abbcad3eab10.png"><action name="Execute"><command><![CDATA[/home/ragdelaed/.pia_manager/pia_manager/run.sh]]></command></action></item>
+    <item label="Uninstall Wine Software" icon="/home/ragdelaed/.config/obmenu-generator/icons/3023023ce1afed8e1e8871bc9d2ab7ca.png"><action name="Execute"><command><![CDATA[wine uninstaller]]></command></action></item>
+    <item label="Winetricks" icon="/home/ragdelaed/.config/obmenu-generator/icons/1e722170a4cbe83e8dc0e030e8f2ddbd.png"><action name="Execute"><command><![CDATA[winetricks]]></command></action></item>
+  </menu>
+  <menu id="0.790336916282058" icon="/home/ragdelaed/.config/obmenu-generator/icons/fc3f239d041b05a6f4b03e3f805b52b2.png" label="Settings">
+    <item label="0install" icon="/home/ragdelaed/.config/obmenu-generator/icons/acbf1f5001713e6bfd0b28717b8c09a7.png"><action name="Execute"><command><![CDATA[0desktop]]></command></action></item>
+    <item label="Additional Drivers" icon="/home/ragdelaed/.config/obmenu-generator/icons/95928ad9169ce6388e584659ef81ee28.png"><action name="Execute"><command><![CDATA[/usr/bin/software-properties-gtk --open-tab=4]]></command></action></item>
+    <item label="Appearance" icon="/home/ragdelaed/.config/obmenu-generator/icons/3bb21ad143f56a72c634a3154ced4363.png"><action name="Execute"><command><![CDATA[unity-control-center appearance]]></command></action></item>
+    <item label="Backups" icon="/home/ragdelaed/.config/obmenu-generator/icons/30370985bfde1359b3b4ed553f981a2b.png"><action name="Execute"><command><![CDATA[deja-dup-preferences]]></command></action></item>
+    <item label="Backups" icon="/home/ragdelaed/.config/obmenu-generator/icons/30370985bfde1359b3b4ed553f981a2b.png"><action name="Execute"><command><![CDATA[unity-control-center deja-dup]]></command></action></item>
+    <item label="Bluetooth Adapters" icon="/home/ragdelaed/.config/obmenu-generator/icons/1e242569b5b74be864c18842c26b805d.png"><action name="Execute"><command><![CDATA[blueman-adapters]]></command></action></item>
+    <item label="Bluetooth Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/7606416da621bd22434f36e93b6e703f.png"><action name="Execute"><command><![CDATA[blueman-manager]]></command></action></item>
+    <item label="Bluetooth" icon="/home/ragdelaed/.config/obmenu-generator/icons/7606416da621bd22434f36e93b6e703f.png"><action name="Execute"><command><![CDATA[unity-control-center bluetooth]]></command></action></item>
+    <item label="Brightness &amp; Lock" icon="/home/ragdelaed/.config/obmenu-generator/icons/4c8321a75ca583aed86fefc054a0d4cf.png"><action name="Execute"><command><![CDATA[unity-control-center screen]]></command></action></item>
+    <item label="Color" icon="/home/ragdelaed/.config/obmenu-generator/icons/947c7688560fc3d804da92efba7b6378.png"><action name="Execute"><command><![CDATA[unity-control-center color]]></command></action></item>
+    <item label="Customize Look and Feel" icon="/home/ragdelaed/.config/obmenu-generator/icons/e78761fff5163d9375641f2e09fc0d77.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Desktop Preferences" icon="/home/ragdelaed/.config/obmenu-generator/icons/6861e1669e46ab273f4d728d09b07317.png"><action name="Execute"><command><![CDATA[pcmanfm --desktop-pref]]></command></action></item>
+    <item label="Desktop Sharing" icon="/home/ragdelaed/.config/obmenu-generator/icons/0b0ee516716f01d212a78db36aa6f677.png"><action name="Execute"><command><![CDATA[vino-preferences]]></command></action></item>
+    <item label="Desktop Webmail Configuration" icon="/home/ragdelaed/.config/obmenu-generator/icons/5045b470820dcb8ea10ebe975a25f562.png"><action name="Execute"><command><![CDATA[desktop-webmail --config]]></command></action></item>
+    <item label="Details" icon="/home/ragdelaed/.config/obmenu-generator/icons/c7760407f7fd4609b6fc88303ca38742.png"><action name="Execute"><command><![CDATA[unity-control-center info]]></command></action></item>
+    <item label="Displays" icon="/home/ragdelaed/.config/obmenu-generator/icons/cfd09cbdb4c29ccd01ef7592038972fa.png"><action name="Execute"><command><![CDATA[unity-control-center display]]></command></action></item>
+    <item label="File Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/a384074033dfc3ebebb1a8a39d2be8a6.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+    <item label="GParted" icon="/home/ragdelaed/.config/obmenu-generator/icons/a7ee8bca1e5e7f2273955590a1a9ab45.png"><action name="Execute"><command><![CDATA[gparted-pkexec]]></command></action></item>
+    <item label="IBus Preferences" icon="/home/ragdelaed/.config/obmenu-generator/icons/9a0d02e4061186be1a2ad4e3a307efe1.png"><action name="Execute"><command><![CDATA[ibus-setup]]></command></action></item>
+    <item label="Input Method" icon="/home/ragdelaed/.config/obmenu-generator/icons/605c824ef9d26198547fa37acfa99b09.png"><action name="Execute"><command><![CDATA[im-config]]></command></action></item>
+    <item label="Keyboard" icon="/home/ragdelaed/.config/obmenu-generator/icons/605c824ef9d26198547fa37acfa99b09.png"><action name="Execute"><command><![CDATA[unity-control-center keyboard]]></command></action></item>
+    <item label="Landscape Service" icon="/home/ragdelaed/.config/obmenu-generator/icons/d212bd6172a77212cdb0f99c54a6570a.png"><action name="Execute"><command><![CDATA[landscape-client-ui-install]]></command></action></item>
+    <item label="Language Support" icon="/home/ragdelaed/.config/obmenu-generator/icons/83f9c602d50aa83fc56d5bdda616dfc5.png"><action name="Execute"><command><![CDATA[/usr/bin/gnome-language-selector]]></command></action></item>
+    <item label="Main Menu" icon="/home/ragdelaed/.config/obmenu-generator/icons/f8abfa3aa1e3d333ef5bbbfb74b65f65.png"><action name="Execute"><command><![CDATA[alacarte]]></command></action></item>
+    <item label="Monitor Settings" icon="/home/ragdelaed/.config/obmenu-generator/icons/fded3dcb92006f859c42a661a0911318.png"><action name="Execute"><command><![CDATA[lxrandr]]></command></action></item>
+    <item label="Mouse &amp; Touchpad" icon="/home/ragdelaed/.config/obmenu-generator/icons/282ae617109c7b1fd63882d31c827f68.png"><action name="Execute"><command><![CDATA[unity-control-center mouse]]></command></action></item>
+    <item label="Network Connections" icon="/home/ragdelaed/.config/obmenu-generator/icons/ec59362f360a331634b0cf4aa4c72e4c.png"><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+    <item label="Network" icon="/home/ragdelaed/.config/obmenu-generator/icons/ea79406f916f6b47cdf46cf682d09def.png"><action name="Execute"><command><![CDATA[unity-control-center network]]></command></action></item>
+    <item label="Network" icon="/home/ragdelaed/.config/obmenu-generator/icons/ec59362f360a331634b0cf4aa4c72e4c.png"><action name="Execute"><command><![CDATA[network-admin]]></command></action></item>
+    <item label="NVIDIA X Server Settings" icon="/home/ragdelaed/.config/obmenu-generator/icons/89ffecf94d6a3e91e2ed842da2d4b210.png"><action name="Execute"><command><![CDATA[/usr/bin/nvidia-settings]]></command></action></item>
+    <item label="Onboard Settings" icon="/home/ragdelaed/.config/obmenu-generator/icons/8dcca52b9e1d09787d2ea4f3c17656d6.png"><action name="Execute"><command><![CDATA[onboard-settings]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/61f3de6fd06f9847e869878302ba1980.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Openbox Settings" icon="/home/ragdelaed/.config/obmenu-generator/icons/61f3de6fd06f9847e869878302ba1980.png"><action name="Execute"><command><![CDATA[obconf-qt]]></command></action></item>
+    <item label="Oracle Java 8 Plugin Control Panel" icon="/home/ragdelaed/.config/obmenu-generator/icons/9bcf2d87d43d91a29864bc45410914cd.png"><action name="Execute"><command><![CDATA[/usr/lib/jvm/java-8-oracle/bin/ControlPanel]]></command></action></item>
+    <item label="Oracle Java 8 Policy Tool" icon="/home/ragdelaed/.config/obmenu-generator/icons/9bcf2d87d43d91a29864bc45410914cd.png"><action name="Execute"><command><![CDATA[/usr/lib/jvm/java-8-oracle/bin/policytool]]></command></action></item>
+    <item label="Panel" icon="/home/ragdelaed/.config/obmenu-generator/icons/74d8869216ce6c722eade8070c061847.png"><action name="Execute"><command><![CDATA[xfce4-panel --preferences]]></command></action></item>
+    <item label="Personal File Sharing" icon="/home/ragdelaed/.config/obmenu-generator/icons/6861e1669e46ab273f4d728d09b07317.png"><action name="Execute"><command><![CDATA[gnome-file-share-properties]]></command></action></item>
+    <item label="Power" icon="/home/ragdelaed/.config/obmenu-generator/icons/0c201d8bb51d5b9f1ef36461abcda2c8.png"><action name="Execute"><command><![CDATA[unity-control-center power]]></command></action></item>
+    <item label="Preferred Applications" icon="/home/ragdelaed/.config/obmenu-generator/icons/9778f46e9ec398491023f8c2794075c3.png"><action name="Execute"><command><![CDATA[exo-preferred-applications]]></command></action></item>
+    <item label="Printers" icon="/home/ragdelaed/.config/obmenu-generator/icons/ae849011bac46133ebfb3d32ff287a66.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Removable Drives and Media" icon="/home/ragdelaed/.config/obmenu-generator/icons/bb0130df8d15a9f2e8170080d29aea02.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    <item label="Screensaver" icon="/home/ragdelaed/.config/obmenu-generator/icons/488d2cec0d1ac4ada8b6248f4e60168d.png"><action name="Execute"><command><![CDATA[xscreensaver-demo]]></command></action></item>
+    <item label="Security &amp; Privacy" icon="/home/ragdelaed/.config/obmenu-generator/icons/921d03f3e331770da46f3a3c69605404.png"><action name="Execute"><command><![CDATA[unity-control-center activity-log-manager]]></command></action></item>
+    <item label="Settings" icon="/home/ragdelaed/.config/obmenu-generator/icons/4e80cd99eb078d3f7822b34df2fa7449.png"><action name="Execute"><command><![CDATA[gnome-control-center --overview]]></command></action></item>
+    <item label="Software &amp; Updates" icon="/home/ragdelaed/.config/obmenu-generator/icons/0995d35a664583cbf28f84bffce180bd.png"><action name="Execute"><command><![CDATA[software-properties-gtk]]></command></action></item>
+    <item label="Software &amp; Updates" icon="/home/ragdelaed/.config/obmenu-generator/icons/0995d35a664583cbf28f84bffce180bd.png"><action name="Execute"><command><![CDATA[software-properties-gtk]]></command></action></item>
+    <item label="Software Updater" icon="/home/ragdelaed/.config/obmenu-generator/icons/bb87436db5e9e3b3681a4323a67c107d.png"><action name="Execute"><command><![CDATA[/usr/bin/update-manager]]></command></action></item>
+    <item label="Sound" icon="/home/ragdelaed/.config/obmenu-generator/icons/2eea2378cb3ea6ab5652225217137f86.png"><action name="Execute"><command><![CDATA[unity-control-center sound]]></command></action></item>
+    <item label="Startup Applications" icon="/home/ragdelaed/.config/obmenu-generator/icons/97b642275d3e363995a68ea7db2224b5.png"><action name="Execute"><command><![CDATA[gnome-session-properties]]></command></action></item>
+    <item label="Startup Disk Creator" icon="/home/ragdelaed/.config/obmenu-generator/icons/191b61a681507556cf6787db92d39806.png"><action name="Execute"><command><![CDATA[usb-creator-gtk]]></command></action></item>
+    <item label="Synaptic Package Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/cef56a14d80497596ab527dd5bb10e57.png"><action name="Execute"><command><![CDATA[synaptic-pkexec]]></command></action></item>
+    <item label="Text Entry" icon="/home/ragdelaed/.config/obmenu-generator/icons/d80dbf0f45d6fc000e50878a33c48198.png"><action name="Execute"><command><![CDATA[unity-control-center region]]></command></action></item>
+    <item label="Time &amp; Date" icon="/home/ragdelaed/.config/obmenu-generator/icons/777ce33af14541115eb22f61e8ac6544.png"><action name="Execute"><command><![CDATA[unity-control-center datetime]]></command></action></item>
+    <item label="Time and Date" icon="/home/ragdelaed/.config/obmenu-generator/icons/90934cd8bdcb9c5280c78cad45e0dc0c.png"><action name="Execute"><command><![CDATA[time-admin]]></command></action></item>
+    <item label="Universal Access" icon="/home/ragdelaed/.config/obmenu-generator/icons/ec153a411bc2ab7f841878eac63c23ab.png"><action name="Execute"><command><![CDATA[unity-control-center universal-access]]></command></action></item>
+    <item label="User Accounts" icon="/home/ragdelaed/.config/obmenu-generator/icons/b53268d5b06bbb3a2a1300ef02ca760f.png"><action name="Execute"><command><![CDATA[unity-control-center user-accounts]]></command></action></item>
+    <item label="Users and Groups" icon="/home/ragdelaed/.config/obmenu-generator/icons/b53268d5b06bbb3a2a1300ef02ca760f.png"><action name="Execute"><command><![CDATA[users-admin]]></command></action></item>
+    <item label="Wacom Tablet" icon="/home/ragdelaed/.config/obmenu-generator/icons/7527210039f2f6a8f3a33e6b600024ef.png"><action name="Execute"><command><![CDATA[unity-control-center wacom]]></command></action></item>
+    <item label="xdiagnose" icon="/home/ragdelaed/.config/obmenu-generator/icons/439d9467df93330debdf727becd3507f.png"><action name="Execute"><command><![CDATA[xdiagnose-pkexec]]></command></action></item>
+  </menu>
+  <menu id="0.110169250534266" icon="/home/ragdelaed/.config/obmenu-generator/icons/c7760407f7fd4609b6fc88303ca38742.png" label="System">
+    <item label="Bulk Rename" icon="/home/ragdelaed/.config/obmenu-generator/icons/8ea1c0f2ad8f6dbfdd02894a2238e92e.png"><action name="Execute"><command><![CDATA[/usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename]]></command></action></item>
+    <item label="Configuration Editor" icon="/home/ragdelaed/.config/obmenu-generator/icons/737c50c8547a1bd928b22edf81935984.png"><action name="Execute"><command><![CDATA[gconf-editor]]></command></action></item>
+    <item label="dconf Editor" icon="/home/ragdelaed/.config/obmenu-generator/icons/f2f005ade3f70af9a5fcd699e3cba8c0.png"><action name="Execute"><command><![CDATA[dconf-editor]]></command></action></item>
+    <item label="Disk Usage Analyzer" icon="/home/ragdelaed/.config/obmenu-generator/icons/dd9f71812074bb1a7c2f1bf391513961.png"><action name="Execute"><command><![CDATA[baobab]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/ragdelaed/.config/obmenu-generator/icons/a384074033dfc3ebebb1a8a39d2be8a6.png"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="Gmount-iso" icon="/home/ragdelaed/.config/obmenu-generator/icons/de71c0212219671901a648f8a105b4bb.png"><action name="Execute"><command><![CDATA[Gmount-iso]]></command></action></item>
+    <item label="GNOME System Monitor" icon="/home/ragdelaed/.config/obmenu-generator/icons/bc87c7e85983375b0f29b361c1f5f476.png"><action name="Execute"><command><![CDATA[gnome-system-monitor]]></command></action></item>
+    <item label="GParted" icon="/home/ragdelaed/.config/obmenu-generator/icons/a7ee8bca1e5e7f2273955590a1a9ab45.png"><action name="Execute"><command><![CDATA[gparted-pkexec]]></command></action></item>
+    <item label="Htop" icon="/home/ragdelaed/.config/obmenu-generator/icons/6d5025de601e5fac48d949891e17262b.png"><action name="Execute"><command><![CDATA[xterm -e 'htop']]></command></action></item>
+    <item label="Konsole" icon="/home/ragdelaed/.config/obmenu-generator/icons/677c1725c42ed0c02eac7ef43c310d91.png"><action name="Execute"><command><![CDATA[konsole]]></command></action></item>
+    <item label="KWalletManager" icon="/home/ragdelaed/.config/obmenu-generator/icons/4eb0cde884301b0d98908f8848beb105.png"><action name="Execute"><command><![CDATA[kwalletmanager5]]></command></action></item>
+    <item label="Midnight Commander" icon="/home/ragdelaed/.config/obmenu-generator/icons/eacfb60d80e0543964b1bcfa839360b6.png"><action name="Execute"><command><![CDATA[xterm -e 'mc']]></command></action></item>
+    <item label="Network" icon="/home/ragdelaed/.config/obmenu-generator/icons/ec59362f360a331634b0cf4aa4c72e4c.png"><action name="Execute"><command><![CDATA[network-admin]]></command></action></item>
+    <item label="NVIDIA X Server Settings" icon="/home/ragdelaed/.config/obmenu-generator/icons/89ffecf94d6a3e91e2ed842da2d4b210.png"><action name="Execute"><command><![CDATA[/usr/bin/nvidia-settings]]></command></action></item>
+    <item label="Oracle Java 8 Console" icon="/home/ragdelaed/.config/obmenu-generator/icons/9bcf2d87d43d91a29864bc45410914cd.png"><action name="Execute"><command><![CDATA[/usr/lib/jvm/java-8-oracle/bin/jconsole]]></command></action></item>
+    <item label="Oracle Java 8 VisualVM" icon="/home/ragdelaed/.config/obmenu-generator/icons/9bcf2d87d43d91a29864bc45410914cd.png"><action name="Execute"><command><![CDATA[/usr/lib/jvm/java-8-oracle/bin/jvisualvm]]></command></action></item>
+    <item label="Power Statistics" icon="/home/ragdelaed/.config/obmenu-generator/icons/44e70d9adc58fa1ef22a148018befebb.png"><action name="Execute"><command><![CDATA[gnome-power-statistics]]></command></action></item>
+    <item label="Printers" icon="/home/ragdelaed/.config/obmenu-generator/icons/ae849011bac46133ebfb3d32ff287a66.png"><action name="Execute"><command><![CDATA[system-config-printer]]></command></action></item>
+    <item label="Security &amp; Privacy" icon="/home/ragdelaed/.config/obmenu-generator/icons/921d03f3e331770da46f3a3c69605404.png"><action name="Execute"><command><![CDATA[unity-control-center activity-log-manager]]></command></action></item>
+    <item label="Software Updater" icon="/home/ragdelaed/.config/obmenu-generator/icons/bb87436db5e9e3b3681a4323a67c107d.png"><action name="Execute"><command><![CDATA[/usr/bin/update-manager]]></command></action></item>
+    <item label="SSH AskPass" icon="/home/ragdelaed/.config/obmenu-generator/icons/ab7be640fc1b105da3744b9661ed18bc.png"><action name="Execute"><command><![CDATA[/usr/bin/ssh-add]]></command></action></item>
+    <item label="Startup Disk Creator" icon="/home/ragdelaed/.config/obmenu-generator/icons/191b61a681507556cf6787db92d39806.png"><action name="Execute"><command><![CDATA[usb-creator-gtk]]></command></action></item>
+    <item label="Synaptic Package Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/cef56a14d80497596ab527dd5bb10e57.png"><action name="Execute"><command><![CDATA[synaptic-pkexec]]></command></action></item>
+    <item label="Sysinfo" icon="/home/ragdelaed/.config/obmenu-generator/icons/d7b6fdd086657b080be6c2bf5349f72c.png"><action name="Execute"><command><![CDATA[sysinfo]]></command></action></item>
+    <item label="System Monitor" icon="/home/ragdelaed/.config/obmenu-generator/icons/bc87c7e85983375b0f29b361c1f5f476.png"><action name="Execute"><command><![CDATA[gnome-system-monitor]]></command></action></item>
+    <item label="System Settings" icon="/home/ragdelaed/.config/obmenu-generator/icons/4e80cd99eb078d3f7822b34df2fa7449.png"><action name="Execute"><command><![CDATA[unity-control-center --overview]]></command></action></item>
+    <item label="Task Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/bc87c7e85983375b0f29b361c1f5f476.png"><action name="Execute"><command><![CDATA[lxtask]]></command></action></item>
+    <item label="Thunar File Manager" icon="/home/ragdelaed/.config/obmenu-generator/icons/8ea1c0f2ad8f6dbfdd02894a2238e92e.png"><action name="Execute"><command><![CDATA[thunar]]></command></action></item>
+    <item label="Time and Date" icon="/home/ragdelaed/.config/obmenu-generator/icons/90934cd8bdcb9c5280c78cad45e0dc0c.png"><action name="Execute"><command><![CDATA[time-admin]]></command></action></item>
+    <item label="UNetbootin" icon="/home/ragdelaed/.config/obmenu-generator/icons/403e76375226fd10ed8f6bffffa8251f.png"><action name="Execute"><command><![CDATA[/usr/bin/unetbootin]]></command></action></item>
+    <item label="User Accounts" icon="/home/ragdelaed/.config/obmenu-generator/icons/b53268d5b06bbb3a2a1300ef02ca760f.png"><action name="Execute"><command><![CDATA[unity-control-center user-accounts]]></command></action></item>
+    <item label="Users and Groups" icon="/home/ragdelaed/.config/obmenu-generator/icons/b53268d5b06bbb3a2a1300ef02ca760f.png"><action name="Execute"><command><![CDATA[users-admin]]></command></action></item>
+    <item label="UXTerm" icon="/home/ragdelaed/.config/obmenu-generator/icons/c41a9631a41abd65a3ec973922274bf7.png"><action name="Execute"><command><![CDATA[uxterm]]></command></action></item>
+    <item label="xdiagnose" icon="/home/ragdelaed/.config/obmenu-generator/icons/439d9467df93330debdf727becd3507f.png"><action name="Execute"><command><![CDATA[xdiagnose-pkexec]]></command></action></item>
+    <item label="XTerm" icon="/home/ragdelaed/.config/obmenu-generator/icons/c41a9631a41abd65a3ec973922274bf7.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="0.829422725354995" icon="/home/ragdelaed/.config/obmenu-generator/icons/1d04abde9d640cde340f7ede0fb1f823.png" label="Advanced Settings">
+    <item label="Conky RC" icon="/home/ragdelaed/.config/obmenu-generator/icons/4e24f630325b42f6a3338a0d8a447112.png"><action name="Execute"><command><![CDATA[geany ~/.conkyrc]]></command></action></item>
+    <item label="Tint2 Panel" icon="/home/ragdelaed/.config/obmenu-generator/icons/4e24f630325b42f6a3338a0d8a447112.png"><action name="Execute"><command><![CDATA[geany ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="0.402474572679228" icon="/home/ragdelaed/.config/obmenu-generator/icons/17e3c7a7b078a9003c7a25583dc89a0b.png" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/ragdelaed/.config/obmenu-generator/icons/4e24f630325b42f6a3338a0d8a447112.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/ragdelaed/.config/obmenu-generator/icons/4e24f630325b42f6a3338a0d8a447112.png"><action name="Execute"><command><![CDATA[geany ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/ragdelaed/.config/obmenu-generator/icons/17e3c7a7b078a9003c7a25583dc89a0b.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/ragdelaed/.config/obmenu-generator/icons/17e3c7a7b078a9003c7a25583dc89a0b.png"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/ragdelaed/.config/obmenu-generator/icons/17e3c7a7b078a9003c7a25583dc89a0b.png"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/ragdelaed/.config/obmenu-generator/icons/17e3c7a7b078a9003c7a25583dc89a0b.png"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh cache" icon="/home/ragdelaed/.config/obmenu-generator/icons/d44f4889cf4d02ebed9acbed60fb0e31.png"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="0.142373828299029" icon="/home/ragdelaed/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/ragdelaed/.config/obmenu-generator/icons/4e24f630325b42f6a3338a0d8a447112.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/ragdelaed/.config/obmenu-generator/icons/4e24f630325b42f6a3338a0d8a447112.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/ragdelaed/.config/obmenu-generator/icons/4e24f630325b42f6a3338a0d8a447112.png"><action name="Execute"><command><![CDATA[geany ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/ragdelaed/.config/obmenu-generator/icons/cbd33e85d4e0834359519a4e282b2aeb.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock" icon="/home/ragdelaed/.config/obmenu-generator/icons/4c8321a75ca583aed86fefc054a0d4cf.png"><action name="Execute"><command><![CDATA[xscreensaver-command -lock]]></command></action></item>
+    <item label="Exit" icon="/home/ragdelaed/.config/obmenu-generator/icons/5a284e6fec46e2093edaa3e4e92ae710.png"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>
