@@ -219,7 +219,7 @@
         <command>xscreensaver-command -lock</command>
       </action>
     </keybind>
-    <keybind key="W-r">
+    <keybind key="C-Escape">
       <action name="Execute">
         <command>gmrun</command>
       </action>
